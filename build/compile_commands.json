@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/yq/my_project/C++/Robomaster/基础/demo/build",
+  "command": "/usr/bin/clang++ -g -o CMakeFiles/demo.dir/src/demo.cpp.o -c /home/yq/my_project/C++/Robomaster/基础/demo/src/demo.cpp",
+  "file": "/home/yq/my_project/C++/Robomaster/基础/demo/src/demo.cpp"
+}
+]

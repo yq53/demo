@@ -1,0 +1,3 @@
+/home/yq/my_project/C++/Robomaster/基础/demo/build/CMakeFiles/demo.dir
+/home/yq/my_project/C++/Robomaster/基础/demo/build/CMakeFiles/edit_cache.dir
+/home/yq/my_project/C++/Robomaster/基础/demo/build/CMakeFiles/rebuild_cache.dir
