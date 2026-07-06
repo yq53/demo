@@ -20,7 +20,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -40,7 +41,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -86,6 +88,13 @@
 					"id" : "thread_02::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-thread_02-Debug-f86aacba83c112144aa2.json",
 					"name" : "thread_02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "thread_03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-thread_03-Debug-22a3e8afefaf5e875a35.json",
+					"name" : "thread_03",
 					"projectIndex" : 0
 				}
 			]
