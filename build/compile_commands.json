@@ -1,7 +1,32 @@
 [
 {
-  "directory": "/home/yq/my_project/C++/Robomaster/基础/demo/build",
-  "command": "/usr/bin/clang++ -g -o CMakeFiles/demo.dir/src/demo.cpp.o -c /home/yq/my_project/C++/Robomaster/基础/demo/src/demo.cpp",
-  "file": "/home/yq/my_project/C++/Robomaster/基础/demo/src/demo.cpp"
+  "directory": "/home/yq/my_project/C++/算法组基础/基础/demo/build",
+  "command": "/usr/bin/clang++ -g -o CMakeFiles/thread_01.dir/src/thread_01.cpp.o -c /home/yq/my_project/C++/算法组基础/基础/demo/src/thread_01.cpp",
+  "file": "/home/yq/my_project/C++/算法组基础/基础/demo/src/thread_01.cpp"
+},
+{
+  "directory": "/home/yq/my_project/C++/算法组基础/基础/demo/build",
+  "command": "/usr/bin/clang++ -g -o CMakeFiles/thread_02.dir/src/thread_02.cpp.o -c /home/yq/my_project/C++/算法组基础/基础/demo/src/thread_02.cpp",
+  "file": "/home/yq/my_project/C++/算法组基础/基础/demo/src/thread_02.cpp"
+},
+{
+  "directory": "/home/yq/my_project/C++/算法组基础/基础/demo/build",
+  "command": "/usr/bin/clang++ -g -o CMakeFiles/mutex_lock_01.dir/src/mutex_lock_01.cpp.o -c /home/yq/my_project/C++/算法组基础/基础/demo/src/mutex_lock_01.cpp",
+  "file": "/home/yq/my_project/C++/算法组基础/基础/demo/src/mutex_lock_01.cpp"
+},
+{
+  "directory": "/home/yq/my_project/C++/算法组基础/基础/demo/build",
+  "command": "/usr/bin/clang++ -g -o CMakeFiles/mutex_lock_02.dir/src/mutex_lock_02.cpp.o -c /home/yq/my_project/C++/算法组基础/基础/demo/src/mutex_lock_02.cpp",
+  "file": "/home/yq/my_project/C++/算法组基础/基础/demo/src/mutex_lock_02.cpp"
+},
+{
+  "directory": "/home/yq/my_project/C++/算法组基础/基础/demo/build",
+  "command": "/usr/bin/clang++ -g -o CMakeFiles/deadlock_01.dir/src/deadlock_01.cpp.o -c /home/yq/my_project/C++/算法组基础/基础/demo/src/deadlock_01.cpp",
+  "file": "/home/yq/my_project/C++/算法组基础/基础/demo/src/deadlock_01.cpp"
+},
+{
+  "directory": "/home/yq/my_project/C++/算法组基础/基础/demo/build",
+  "command": "/usr/bin/clang++ -g -o CMakeFiles/atomic_01.dir/src/atomic_01.cpp.o -c /home/yq/my_project/C++/算法组基础/基础/demo/src/atomic_01.cpp",
+  "file": "/home/yq/my_project/C++/算法组基础/基础/demo/src/atomic_01.cpp"
 }
 ]

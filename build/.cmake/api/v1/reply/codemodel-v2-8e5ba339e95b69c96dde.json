@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "atomic_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-atomic_01-Debug-1f279e3135084dd3625c.json",
+					"name" : "atomic_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deadlock_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deadlock_01-Debug-e88ffd65c23124b9293e.json",
+					"name" : "deadlock_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mutex_lock_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mutex_lock_01-Debug-74b8d005942128e6956a.json",
+					"name" : "mutex_lock_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mutex_lock_02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mutex_lock_02-Debug-bfb15e669cda941acc9d.json",
+					"name" : "mutex_lock_02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "thread_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-thread_01-Debug-0d1d5200899c3339dcf7.json",
+					"name" : "thread_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "thread_02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-thread_02-Debug-f86aacba83c112144aa2.json",
+					"name" : "thread_02",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yq/my_project/C++/\u7b97\u6cd5\u7ec4\u57fa\u7840/\u57fa\u7840/demo/build",
+		"source" : "/home/yq/my_project/C++/\u7b97\u6cd5\u7ec4\u57fa\u7840/\u57fa\u7840/demo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

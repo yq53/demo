@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/yq/my_project/C++/Robomaster/\u57fa\u7840/demo/build"
+			"value" : "/home/yq/my_project/C++/\u7b97\u6cd5\u7ec4\u57fa\u7840/\u57fa\u7840/demo/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -139,10 +139,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/usr/bin/clang++"
 		},
 		{
@@ -267,10 +267,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/usr/bin/clang"
 		},
 		{
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/yq/my_project/C++/Robomaster/\u57fa\u7840/demo"
+			"value" : "/home/yq/my_project/C++/\u7b97\u6cd5\u7ec4\u57fa\u7840/\u57fa\u7840/demo"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1102,42 +1102,6 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Project_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/yq/my_project/C++/Robomaster/\u57fa\u7840/demo/build"
-		},
-		{
-			"name" : "Project_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "Project_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/yq/my_project/C++/Robomaster/\u57fa\u7840/demo"
-		},
-		{
 			"name" : "demo_BINARY_DIR",
 			"properties" : 
 			[
@@ -1147,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/yq/my_project/C++/Robomaster/\u57fa\u7840/demo/build"
+			"value" : "/home/yq/my_project/C++/\u7b97\u6cd5\u7ec4\u57fa\u7840/\u57fa\u7840/demo/build"
 		},
 		{
 			"name" : "demo_IS_TOP_LEVEL",
@@ -1171,43 +1135,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/yq/my_project/C++/Robomaster/\u57fa\u7840/demo"
-		},
-		{
-			"name" : "project1_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/yq/my_project/C++/Robomaster/\u57fa\u7840/demo/build"
-		},
-		{
-			"name" : "project1_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "project1_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/yq/my_project/C++/Robomaster/\u57fa\u7840/demo"
+			"value" : "/home/yq/my_project/C++/\u7b97\u6cd5\u7ec4\u57fa\u7840/\u57fa\u7840/demo"
 		}
 	],
 	"kind" : "cache",

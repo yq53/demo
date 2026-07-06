@@ -1,4 +1,4 @@
-# Install script for directory: /home/yq/my_project/C++/Robomaster/基础/demo
+# Install script for directory: /home/yq/my_project/C++/算法组基础/基础/demo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yq/my_project/C++/Robomaster/基础/demo/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yq/my_project/C++/算法组基础/基础/demo/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
