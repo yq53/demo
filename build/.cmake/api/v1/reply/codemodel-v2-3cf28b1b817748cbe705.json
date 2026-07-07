@@ -21,7 +21,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -42,7 +43,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -92,9 +94,16 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "thread_03::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-thread_03-Debug-22a3e8afefaf5e875a35.json",
-					"name" : "thread_03",
+					"id" : "thread_function::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-thread_function-Debug-ca680a060e9209c13f92.json",
+					"name" : "thread_function",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "thread_join::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-thread_join-Debug-9f568b5ab803386a35c6.json",
+					"name" : "thread_join",
 					"projectIndex" : 0
 				}
 			]

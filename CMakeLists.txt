@@ -14,5 +14,6 @@ add_executable(mutex_lock_01 src/mutex_lock_01.cpp)
 add_executable(mutex_lock_02 src/mutex_lock_02.cpp)
 add_executable(deadlock_01 src/deadlock_01.cpp)
 add_executable(atomic_01 src/atomic_01.cpp)
-add_executable(thread_03 src/thread_03.cpp)
 
+add_executable(thread_function src/thread_function.cpp)
+add_executable(thread_join src/thread_join.cpp)

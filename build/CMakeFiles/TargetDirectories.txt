@@ -4,6 +4,7 @@
 /home/yq/my_project/C++/算法组基础/基础/demo/build/CMakeFiles/mutex_lock_02.dir
 /home/yq/my_project/C++/算法组基础/基础/demo/build/CMakeFiles/deadlock_01.dir
 /home/yq/my_project/C++/算法组基础/基础/demo/build/CMakeFiles/atomic_01.dir
-/home/yq/my_project/C++/算法组基础/基础/demo/build/CMakeFiles/thread_03.dir
+/home/yq/my_project/C++/算法组基础/基础/demo/build/CMakeFiles/thread_function.dir
+/home/yq/my_project/C++/算法组基础/基础/demo/build/CMakeFiles/thread_join.dir
 /home/yq/my_project/C++/算法组基础/基础/demo/build/CMakeFiles/edit_cache.dir
 /home/yq/my_project/C++/算法组基础/基础/demo/build/CMakeFiles/rebuild_cache.dir

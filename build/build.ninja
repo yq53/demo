@@ -227,35 +227,66 @@ build ../bin/atomic_01: CXX_EXECUTABLE_LINKER__atomic_01_Debug CMakeFiles/atomic
   TARGET_PDB = atomic_01.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target thread_03
+# Object build statements for EXECUTABLE target thread_function
 
 
 #############################################
-# Order-only phony target for thread_03
+# Order-only phony target for thread_function
 
-build cmake_object_order_depends_target_thread_03: phony || CMakeFiles/thread_03.dir
+build cmake_object_order_depends_target_thread_function: phony || CMakeFiles/thread_function.dir
 
-build CMakeFiles/thread_03.dir/src/thread_03.cpp.o: CXX_COMPILER__thread_03_Debug /home/yq/my_project/C++/算法组基础/基础/demo/src/thread_03.cpp || cmake_object_order_depends_target_thread_03
-  DEP_FILE = CMakeFiles/thread_03.dir/src/thread_03.cpp.o.d
+build CMakeFiles/thread_function.dir/src/thread_function.cpp.o: CXX_COMPILER__thread_function_Debug /home/yq/my_project/C++/算法组基础/基础/demo/src/thread_function.cpp || cmake_object_order_depends_target_thread_function
+  DEP_FILE = CMakeFiles/thread_function.dir/src/thread_function.cpp.o.d
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/thread_03.dir
-  OBJECT_FILE_DIR = CMakeFiles/thread_03.dir/src
+  OBJECT_DIR = CMakeFiles/thread_function.dir
+  OBJECT_FILE_DIR = CMakeFiles/thread_function.dir/src
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target thread_03
+# Link build statements for EXECUTABLE target thread_function
 
 
 #############################################
-# Link the executable ../bin/thread_03
+# Link the executable ../bin/thread_function
 
-build ../bin/thread_03: CXX_EXECUTABLE_LINKER__thread_03_Debug CMakeFiles/thread_03.dir/src/thread_03.cpp.o
+build ../bin/thread_function: CXX_EXECUTABLE_LINKER__thread_function_Debug CMakeFiles/thread_function.dir/src/thread_function.cpp.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/thread_03.dir
+  OBJECT_DIR = CMakeFiles/thread_function.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = ../bin/thread_03
-  TARGET_PDB = thread_03.dbg
+  TARGET_FILE = ../bin/thread_function
+  TARGET_PDB = thread_function.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target thread_join
+
+
+#############################################
+# Order-only phony target for thread_join
+
+build cmake_object_order_depends_target_thread_join: phony || CMakeFiles/thread_join.dir
+
+build CMakeFiles/thread_join.dir/src/thread_join.cpp.o: CXX_COMPILER__thread_join_Debug /home/yq/my_project/C++/算法组基础/基础/demo/src/thread_join.cpp || cmake_object_order_depends_target_thread_join
+  DEP_FILE = CMakeFiles/thread_join.dir/src/thread_join.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/thread_join.dir
+  OBJECT_FILE_DIR = CMakeFiles/thread_join.dir/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target thread_join
+
+
+#############################################
+# Link the executable ../bin/thread_join
+
+build ../bin/thread_join: CXX_EXECUTABLE_LINKER__thread_join_Debug CMakeFiles/thread_join.dir/src/thread_join.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/thread_join.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../bin/thread_join
+  TARGET_PDB = thread_join.dbg
 
 
 #############################################
@@ -295,7 +326,9 @@ build thread_01: phony ../bin/thread_01
 
 build thread_02: phony ../bin/thread_02
 
-build thread_03: phony ../bin/thread_03
+build thread_function: phony ../bin/thread_function
+
+build thread_join: phony ../bin/thread_join
 
 # =============================================================================
 # Folder targets.
@@ -305,7 +338,7 @@ build thread_03: phony ../bin/thread_03
 #############################################
 # Folder: /home/yq/my_project/C++/算法组基础/基础/demo/build
 
-build all: phony ../bin/thread_01 ../bin/thread_02 ../bin/mutex_lock_01 ../bin/mutex_lock_02 ../bin/deadlock_01 ../bin/atomic_01 ../bin/thread_03
+build all: phony ../bin/thread_01 ../bin/thread_02 ../bin/mutex_lock_01 ../bin/mutex_lock_02 ../bin/deadlock_01 ../bin/atomic_01 ../bin/thread_function ../bin/thread_join
 
 # =============================================================================
 # Built-in targets
