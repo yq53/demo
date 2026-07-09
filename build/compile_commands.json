@@ -38,5 +38,10 @@
   "directory": "/home/yq/my_project/C++/算法组基础/基础/demo/build",
   "command": "/usr/bin/clang++ -g -o CMakeFiles/thread_join.dir/src/thread_join.cpp.o -c /home/yq/my_project/C++/算法组基础/基础/demo/src/thread_join.cpp",
   "file": "/home/yq/my_project/C++/算法组基础/基础/demo/src/thread_join.cpp"
+},
+{
+  "directory": "/home/yq/my_project/C++/算法组基础/基础/demo/build",
+  "command": "/usr/bin/clang++ -g -o CMakeFiles/condition_variable_01.dir/src/condition_variable_01.cpp.o -c /home/yq/my_project/C++/算法组基础/基础/demo/src/condition_variable_01.cpp",
+  "file": "/home/yq/my_project/C++/算法组基础/基础/demo/src/condition_variable_01.cpp"
 }
 ]

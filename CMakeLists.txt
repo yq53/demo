@@ -17,3 +17,5 @@ add_executable(atomic_01 src/atomic_01.cpp)
 
 add_executable(thread_function src/thread_function.cpp)
 add_executable(thread_join src/thread_join.cpp)
+
+add_executable(condition_variable_01 src/condition_variable_01.cpp)

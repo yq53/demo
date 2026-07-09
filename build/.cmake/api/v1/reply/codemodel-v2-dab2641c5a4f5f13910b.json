@@ -22,7 +22,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -44,7 +45,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -55,6 +57,13 @@
 					"id" : "atomic_01::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-atomic_01-Debug-1f279e3135084dd3625c.json",
 					"name" : "atomic_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "condition_variable_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-condition_variable_01-Debug-2d9db6816d3ad1131257.json",
+					"name" : "condition_variable_01",
 					"projectIndex" : 0
 				},
 				{
