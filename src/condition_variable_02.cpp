@@ -17,7 +17,7 @@ public:
         auto tid = std::this_thread::get_id();
         std::unique_lock<std::mutex> lck(mutex_);   // 获取mutex
         std::cout << "接收方[" << tid << "]等待数据;" << std::endl;
-        condVar.wait(lck);  // 等待通知
+        condVar.wait(lck, [this](){ return !sharedData.empty(); });  // 等待通知
         std::cout << "接收方[" << tid << "]得到数据;" << sharedData << std::endl;
         sharedData.clear();     // 清除sharedData
     }
@@ -30,7 +30,6 @@ public:
         std::stringstream ss;   // 创建 字符串流 对象
         ss << "Hello #" << id;
 
-        // 裸的临时作用域
         {
             std::unique_lock<std::mutex> lck(mutex_);   // 获取mutex
             sharedData = ss.str();  // 将准备好的共享数据，赋值给sharedData
@@ -68,9 +67,3 @@ int main()
 
     return 0;
 }
-
-/* 
-stringstream: 字符串流。cout输出到屏幕，ss输出到内存。ss.str()取出字符串
-
-当前程序有个致命的缺陷。就是两个线程仍然是异步进行的，这又会导致死锁
-*/
