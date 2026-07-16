@@ -24,4 +24,9 @@ add_executable(condition_variable_01 src/condition_variable_01.cpp)
 add_executable(condition_variable_02 src/condition_variable_02.cpp)
 
 add_executable(semaphore_01 src/semaphore_01.cpp)
+add_executable(semaphore_02 src/semaphore_02.cpp)
 
+add_executable(lock_01 src/lock_01.cpp)
+add_executable(con_var_exam_01 src/con_var_exam_01.cpp)
+add_executable(exam_02 src/exam_02.cpp)
+add_executable(exam_03 src/exam_03.cpp)

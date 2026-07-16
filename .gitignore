@@ -8,5 +8,5 @@ CMakeCache.txt
 cmake_install.cmake
 compile_commands.json
 
-# VSCode（看你需不需要分享配置）
+# VSCode配置
 .vscode/
